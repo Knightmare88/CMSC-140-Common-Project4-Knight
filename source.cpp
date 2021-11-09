@@ -1,15 +1,27 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-void test(int n);
+int numOfEmployees();
+int totDaysAbsent(int numOfEmployees);
 ofstream file;
 int main()
 {
-	
+	int numberOfEmployees;
+	numberOfEmployees = numOfEmployees();
+	totDaysAbsent(numberOfEmployees);
+
 	return 0;
 }
 
-void test(int n)
+int numOfEmployees()
 {
-	file.open("empl.txt");
+	int numOfEmployees;
+	cout << "Please enter number of employees in the company: ";
+	cin >> numOfEmployees;
+	return numOfEmployees;
+}
+int totDaysAbsent(int numOfEmployees)
+{
+	
+	
 }

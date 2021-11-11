@@ -13,6 +13,7 @@ int main()
 	return 0;
 }
 
+//gets number of employees
 int numOfEmployees()
 {
 	int numOfEmployees;
@@ -22,6 +23,10 @@ int numOfEmployees()
 }
 int totDaysAbsent(int numOfEmployees)
 {
+	int i = numOfEmployees;
 	
-	
+	for (int j = i; j > 0; j--)
+	{
+		cout << "Please enter an employee ID: ";
+	}
 }
